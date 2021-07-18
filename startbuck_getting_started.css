@@ -1,0 +1,125 @@
+.getting_started_section {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 320px;
+  z-index: -1111;
+}
+.gs_header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.gs_fr_header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.gs_sc_header {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.gs_starting_rules {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+.gs_rules_desing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gs_rules_num {
+  font-size: 2rem;
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--hover-green);
+  color: var(--hover-green);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gs_rules_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gs_rules_text .gs_rules_head {
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-align: center;
+}
+.gs_gr_space {
+  margin: 10px 0px;
+}
+
+.gs_rules_desc {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  width: 80%;
+}
+.rules_join {
+  color: var(--hover-green);
+  text-decoration: underline;
+}
+.rules_join:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 760px) {
+  .getting_started_section {
+    top: 225px;
+  }
+  .gs_starting_rules {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gs_fr_header {
+    font-size: 1.6rem;
+  }
+  .gs_rules_desing {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 10px;
+  }
+  .gs_gr_space {
+    margin: 10px 0px;
+  }
+  .gs_gr_space:nth-child(3) {
+    margin: 0px;
+  }
+  .gs_rules_num {
+    position: relative;
+    top: -20px;
+    width: 70px;
+  }
+  .gs_rules_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .gs_rules_text .gs_rules_head {
+    width: 100%;
+    text-align: left;
+  }
+  .gs_rules_desc {
+    text-align: start;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .gs_sc_header {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
