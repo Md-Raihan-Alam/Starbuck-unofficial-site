@@ -116,11 +116,13 @@
   .paying_option {
     flex-direction: column;
   }
+
   .moeny_way_desc {
     margin-top: 40px;
     margin-left: 0%;
     flex: 1;
   }
+
   .money_section {
     width: 100%;
   }
@@ -173,7 +175,7 @@
     height: 130px;
   }
   .mn_d_f_header {
-    width: 150%;
+    width: 130%;
     font-size: 1.1rem;
   }
   .mn_d_f_text {
@@ -240,19 +242,19 @@
     font-size: 1.1rem;
   }
   .mn_d_f_text {
-    width: 160%;
+    width: 150%;
     padding-top: 20px;
   }
   .mn_desc_header {
     font-size: 1rem;
-    width: 170%;
+    width: 150%;
   }
   .mn_desc_text {
     width: 130%;
     font-size: 1rem;
   }
   .sp_width {
-    width: 152%;
+    width: 130%;
   }
 }
 @media screen and (max-width: 370px) {
@@ -260,6 +262,9 @@
   .mn_desc_text,
   .mn_d_f_text {
     font-size: 0.8rem;
+  }
+  .mn_desc_header {
+    width: 100%;
   }
   .sp_width {
     padding-bottom: 350px;
