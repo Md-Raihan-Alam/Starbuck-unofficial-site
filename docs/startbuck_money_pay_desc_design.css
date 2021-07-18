@@ -1,0 +1,271 @@
+.paying_section {
+  margin-top: 650px;
+  padding-top: 5%;
+  background-color: var(--mn-section);
+}
+.mg_space {
+  height: 50px;
+  width: 100%;
+}
+.paying_header_desc {
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8%;
+}
+.paying_header {
+  margin-bottom: 2%;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.paying_sub_header {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  width: 50%;
+  text-align: center;
+}
+.paying_option,
+.moeny_way_desc,
+.mn_d_f {
+  display: flex;
+  margin-left: 2%;
+}
+.money_section {
+  width: 20%;
+}
+.moeny_way_desc {
+  width: 80%;
+}
+.mn_one {
+  display: flex;
+  width: 100%;
+}
+.mn_two {
+  width: 100%;
+}
+.mn_image,
+.mn_d_f_img {
+  margin-right: 20px;
+}
+.mn_image_size {
+  width: 174px;
+  height: 216px;
+}
+.mn_desc,
+.mn_d_f_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.mn_desc {
+  height: 55%;
+}
+/* .mn_desc:nth-child(1) {
+  padding-top: 0px;
+}
+.mn_desc:nth-child(2),
+.mn_desc:nth-child(3) {
+  padding-top: 33px;
+} */
+.mn_d_f_desc {
+  width: 50%;
+  height: 100px;
+}
+.money_amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.mn_d_f_text {
+  padding-right: 10%;
+  padding-top: 20px;
+}
+.money_way {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.mn_desc_header {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.mn_desc_text {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  width: 90%;
+  height: 100px;
+  font-weight: lighter;
+}
+.sp_width {
+  width: 30%;
+}
+.mn_d_f_header {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.border_solid {
+  width: 95%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: var(--border-color);
+}
+@media screen and (max-width: 1025px) {
+  .paying_option {
+    flex-direction: column;
+  }
+  .moeny_way_desc {
+    margin-top: 40px;
+    margin-left: 0%;
+    flex: 1;
+  }
+  .money_section {
+    width: 100%;
+  }
+  .mn_two {
+    margin-left: 40px;
+  }
+  .mn_d_f_desc {
+    width: 100%;
+    height: 130px;
+  }
+  .mn_d_f_header {
+    width: 150%;
+  }
+  .mn_d_f_text {
+    width: 195%;
+    padding-top: 5px;
+  }
+  .mn_desc_header {
+    width: 130%;
+  }
+  .mn_desc_text {
+    width: 130%;
+  }
+  .sp_width {
+    width: 65%;
+    padding-bottom: 140px;
+  }
+  .border_solid {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .paying_option {
+    flex-direction: column;
+  }
+  .moeny_way_desc {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 0%;
+    flex: 1;
+  }
+  .money_section {
+    width: 100%;
+  }
+  .mn_two {
+    margin-left: 40px;
+  }
+  .mn_d_f_desc {
+    width: 100%;
+    height: 130px;
+  }
+  .mn_d_f_header {
+    width: 150%;
+    font-size: 1.1rem;
+  }
+  .mn_d_f_text {
+    width: 130%;
+    padding-top: 5px;
+  }
+  .mn_desc_header {
+    font-size: 1.1rem;
+    width: 130%;
+  }
+  .mn_desc_text {
+    width: 130%;
+  }
+  .sp_width {
+    width: 130%;
+    padding-bottom: 300px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .paying_section {
+    margin-top: 1120px;
+  }
+  .paying_header_desc {
+    padding-top: 130px;
+  }
+  .paying_header {
+    margin-bottom: 10%;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .paying_sub_header {
+    font-size: 1.1rem;
+    width: 90%;
+  }
+  .mg_space {
+    height: 100px;
+  }
+  .paying_option {
+    flex-direction: column;
+  }
+  .moeny_way_desc {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 0%;
+    flex: 1;
+  }
+  .money_section {
+    width: 90%;
+    padding-left: 20px;
+  }
+  .mn_two,
+  .mn_d_f {
+    margin-left: 0px;
+  }
+  .mn_two {
+    margin-top: 70%;
+  }
+  .mn_d_f_desc {
+    width: 100%;
+    height: 130px;
+  }
+  .mn_d_f_header {
+    width: 150%;
+    font-size: 1.1rem;
+  }
+  .mn_d_f_text {
+    width: 160%;
+    padding-top: 20px;
+  }
+  .mn_desc_header {
+    font-size: 1rem;
+    width: 170%;
+  }
+  .mn_desc_text {
+    width: 130%;
+    font-size: 1rem;
+  }
+  .sp_width {
+    width: 152%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .sp_width,
+  .mn_desc_text,
+  .mn_d_f_text {
+    font-size: 0.8rem;
+  }
+  .sp_width {
+    padding-bottom: 350px;
+  }
+  .mn_image_size {
+    width: 100px;
+    height: 120px;
+  }
+}

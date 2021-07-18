@@ -1,0 +1,212 @@
+/* background-image:url('	https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png') */
+.home_section {
+  width: 100%;
+  height: 700px;
+  background-color: var(--logo-background);
+  /* padding-top: 12%; */
+  position: relative;
+  top: 140px;
+  /* top: 141px; */
+  z-index: -111;
+}
+.home_divide_section {
+  display: flex;
+  flex-direction: row;
+}
+.home_divide {
+  height: 700px;
+}
+.home_divide_first_join_section {
+  width: 15%;
+  height: 700px;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.join_section_design {
+  position: absolute;
+  z-index: 1111;
+  width: 164%;
+  left: 10px;
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.join_section_header {
+  font-size: 2rem;
+  text-align: justify;
+  font-weight: bolder;
+}
+.join_asking_section {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.button_join_section {
+  margin-top: 10px;
+}
+.join_btn {
+  min-width: 35px;
+  min-height: 35px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--hover-green);
+  color: var(--normal-white);
+  font-size: 1.1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 100ms linear;
+  -webkit-transition: background-color 100ms linear;
+  -moz-transition: background-color 100ms linear;
+}
+.join_btn:hover {
+  background-color: var(--hover-inter-green);
+}
+.link_join_app_section {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.join_section {
+  color: var(--normal-black);
+  text-decoration: underline;
+}
+.join_section:hover {
+  text-decoration: none;
+}
+.home_divide_second_img_section {
+  width: 90%;
+}
+.home_divide_second_img_section {
+  width: 100%;
+  height: 700px;
+}
+.img_location {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png);
+  background-position: center;
+  background-size: 153% 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 760px) {
+  .home_section {
+    top: 140px;
+  }
+  .home_divide_section {
+    flex-direction: column;
+  }
+  .home_divide {
+    width: 100%;
+    height: 300px;
+  }
+  .home_divide_first_join_section {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  .join_section_design {
+    left: 200px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .join_section_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .join_asking_section {
+    font-size: 1.1rem;
+    margin: 20px 0px;
+  }
+  .button_join_section {
+    margin-bottom: 20px;
+  }
+  .join_btn {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  .underline {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .underline:hover {
+    text-decoration: none;
+  }
+  .home_divide_second_img_section {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .home_section {
+    top: 140px;
+  }
+  .home_divide_section {
+    flex-direction: column;
+  }
+  .home_divide {
+    width: 100%;
+    height: 300px;
+  }
+  .home_divide_first_join_section {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  .join_section_design {
+    top: 61%;
+    left: 30%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .img_location {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png);
+    background-position: bottom;
+    background-size: 138% 55%;
+    background-repeat: no-repeat;
+  }
+  .join_section_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .join_asking_section {
+    font-size: 1.1rem;
+    margin: 20px 0px;
+  }
+  .button_join_section {
+    margin-bottom: 20px;
+  }
+  .join_btn {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  .underline {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .underline:hover {
+    text-decoration: none;
+  }
+  .home_divide_second_img_section {
+    width: 100%;
+    height: 400px;
+  }
+}

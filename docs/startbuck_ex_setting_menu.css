@@ -1,0 +1,127 @@
+.extra_section {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 520px;
+  z-index: -1111;
+}
+.ex_header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.ex_fr_header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.ex_sc_header {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.ex_starting_data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+.ex_rules_desing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex_rules_num img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+.ex_rules_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ex_gr_space_one {
+  margin-top: 50px;
+}
+.ex_rules_text .ex_rules_head {
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-align: center;
+}
+.ex_gr_space_two {
+  margin-top: 30px;
+}
+.ex_rules_desc {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  width: 80%;
+}
+.ex_link {
+  color: var(--hover-green);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ex_link:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 760px) {
+  .ex_starting_data {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ex_rules_desing {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 10px;
+  }
+  .gs_gr_space {
+    margin: 10px 0px;
+  }
+  .ex_gr_space_two:nth-child(1) {
+    margin: 0px;
+  }
+  .ex_rules_num {
+    position: relative;
+    top: 14px;
+    width: 70px;
+  }
+  .ex_rules_num img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+  }
+  .ex_rules_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 65px;
+  }
+  .ex_rules_text .ex_rules_head {
+    width: 100%;
+    text-align: left;
+  }
+  .ex_rules_desc {
+    text-align: start;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ex_fr_header {
+    font-size: 1.3rem;
+  }
+  .ex_sc_header {
+    font-size: 0.8rem;
+  }
+}
